@@ -2,7 +2,7 @@ body {
 	background:#E2D1EB;
 	background:-moz-linear-gradient(#FA7C7E, #D591EE,#ABE3DD);
 	background: -webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD);
-	background: url(please3.png), -webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD); 
+	background: url(../images/please3.png), -webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD); 
 	text-align: center;
 
   }
