@@ -1,0 +1,28 @@
+body {
+	background:#E2D1EB;
+	background:-moz-linear-gradient(#FA7C7E, #D591EE,#ABE3DD);
+	background: -webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD);
+	background: url(please3.png), -webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD); 
+	text-align: center;
+
+  }
+
+h1 {
+font-family: 'Bungee Shade', cursive;
+color:white;
+font-size: 40px;
+}
+
+img {
+width: 25%;
+height: 15%;
+cursor: pointer;
+filter: grayscale(100%);
+transition: 2s;
+padding: 0;
+}
+
+img:hover {
+filter: grayscale(0%);
+}
+
