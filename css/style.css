@@ -2,10 +2,11 @@ body {
   background:#E2D1EB;
   background:-webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD); 
   background:-moz-linear-gradient(#FA7C7E, #D591EE,#ABE3DD);
-  background: url(../images/please3.png), -webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD);
+  background: url(please3.png), -webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD);
   }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bungee Shade', cursive; 
   margin: 0 auto;}
 
 
@@ -82,7 +83,6 @@ border-color: #f7e3f9;
 padding: 5%;
 text-align: center;
 width: 40%;
-font-family: 'Sriracha', cursive;
 color: black;
 }
 
@@ -124,7 +124,6 @@ height: 100%;
 }
 
 .description h1 {
- font-family: 'Sriracha', cursive;
  font-size: 100%;
 
 }
