@@ -2,7 +2,7 @@ body {
 	background:#E2D1EB;
 	background:-moz-linear-gradient(#FA7C7E, #D591EE,#ABE3DD);
 	background: -webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD);
-	background: url(please3.png), -webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD); 
+	background: url(../images/stars.png), -webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD); 
 	text-align: center;
 
   }
@@ -13,7 +13,7 @@ color:white;
 font-size: 40px;
 }
 
-img {
+.photos img {
 width: 25%;
 height: 15%;
 cursor: pointer;
@@ -22,7 +22,7 @@ transition: 2s;
 padding: 0;
 }
 
-img:hover {
+.photos img:hover {
 filter: grayscale(0%);
 }
 

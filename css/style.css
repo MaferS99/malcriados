@@ -2,7 +2,7 @@ body {
   background:#E2D1EB;
   background:-webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD); 
   background:-moz-linear-gradient(#FA7C7E, #D591EE,#ABE3DD);
-  background: url(please3.png), -webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD);
+  background: url(../images/stars.png), -webkit-linear-gradient(#FA7C7E, #D591EE,#ABE3DD);
   }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,6 +46,7 @@ text-align: center;
 background: #fff;
 height: 7%;
 opacity: .9;
+z-index: 999;
 }
 
 
@@ -80,10 +81,14 @@ border-color: #f7e3f9;
 
 
 .formales {
-padding: 5%;
+width: 100%;
 text-align: center;
-width: 40%;
-color: black;
+margin-top: 50px;
+}
+
+.formales a {
+  display: inline-block;
+  margin: 5% 10%;
 }
 
 .formales a:hover {
@@ -96,13 +101,19 @@ padding: 5%;
 
 }
 
-
 .fbcomments {
-float: right;
-width: 40%;
-text-align: center;
-padding: 5%;
-cursor: auto;
+  text-align: center;
+}
+
+.fbcomments iframe {
+  display: inline-block;
+  margin: 20px 10px;
+  position: relative;
+  vertical-align: top;
+}
+
+.fbcomments iframe ._3x-2 {
+  display: none;
 }
 
 .fbcomments img {
@@ -170,9 +181,9 @@ background:
 
     
 .section {
-height: 600px;
 padding: 20px;
 margin-left: 30px;
+min-height: 600px;
 font-family: 'Montserrat', sans-serif;
 }
 
@@ -194,11 +205,6 @@ font-family: 'Montserrat', sans-serif;
   border-radius: 15px;
   width: 70%;
   border: 6px;
-}
-
-.formales {
-float: left;
-
 }
 
 
